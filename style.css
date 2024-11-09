@@ -1,7 +1,6 @@
 
 body {
     background-color: darkgrey;
-    height: 100%;
 }
 
 h1, h2 {
@@ -9,10 +8,13 @@ h1, h2 {
 }
 
 .main-col-wrapper {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 12.5%;
     width: 75%;
     min-height: 100vh;
     background-color: grey;
-    margin: auto;
 }
 
 .main-column {
