@@ -1,0 +1,19 @@
+.training-options-box {
+    width: 95%;
+    margin: auto;
+    display: flex;
+}
+
+.training-option-box {
+    border: cyan 3px solid;
+    border-radius: 10px;
+    width: 45%;
+    margin: auto;
+    height: 100%;
+    background-color:rgb(101, 98, 98);
+}
+
+.training-option-contents {
+    width: 95%;
+    margin: auto;
+}
