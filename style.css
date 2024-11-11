@@ -1,6 +1,10 @@
 
 body {
     background-color: darkgrey;
+<<<<<<< HEAD
+=======
+    height: 100%;
+>>>>>>> e14bced (Algne füüsiline elementide paigaldus tehtud, näidisvärvidega pealeht ilma sisuta tehtud)
 }
 
 h1, h2 {
@@ -8,6 +12,7 @@ h1, h2 {
 }
 
 .main-col-wrapper {
+<<<<<<< HEAD
     position: absolute;
     top: 0;
     bottom: 0;
@@ -15,6 +20,12 @@ h1, h2 {
     width: 75%;
     min-height: 100vh;
     background-color: grey;
+=======
+    width: 75%;
+    min-height: 100vh;
+    background-color: grey;
+    margin: auto;
+>>>>>>> e14bced (Algne füüsiline elementide paigaldus tehtud, näidisvärvidega pealeht ilma sisuta tehtud)
 }
 
 .main-column {
