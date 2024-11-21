@@ -1,3 +1,65 @@
 #pealkiri {
     text-align: center;
 }
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+}
+
+hr.joon {
+    border: none;
+    border-top: 3px solid #a3d5ff;
+}
+
+header {
+    background-color: #2a94e7;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    text-align: center;
+}
+header nav {
+    margin-top: 10px;
+}
+header nav a {
+    color: #FFFFFF;
+    margin: 15px;
+    font-weight: bold;
+}
+header nav a:hover {
+    text-decoration: underline;
+}
+.sisu {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+    border-radius: 10px;
+}
+.kast {
+    background: #2a94e7;
+    color: #FFFFFF;
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 40px;
+    box-shadow: 10px 10px 10px #a3d5ff;
+}
+
+.kast h1 {
+    text-align: center;
+    font-weight: 800;
+    font-size: 35px
+}
+
+#selg {
+    margin-top: 80px;
+}
+
+#alakeha {
+    margin-top: 80px;
+}
+
+.kast img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
