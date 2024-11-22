@@ -8,21 +8,32 @@
 <body>
     <header>
         <nav>
-            <a href="#">Koduleht</a>
-            <a href="#">Koduharjutused</a>
-            <a href="#">Jõusaali harjutused</a>
+            <a id="koduleht" href="#">Koduleht</a>
+            <a id="koduharjutused" href="#">Koduharjutused</a>
+            <a id="jõusaaliharjutused" href="#">Jõusaali harjutused</a>
         </nav>
         <h1>Jõuharjutused kodus</h1>
-        <p>Füüsilise aktiivsuse ning vormi parandamiseks ei pea ilmtingimata omama jõusaali liikmekaarti.</p>
-        <p>Vastupidi, ka kodustes tingimustes saab kõiki lihasgruppe väga hästi treenida!.</p>
-        <p>Sellel lehel leiate iga lihasgrupi kohta 3 effektiivset harjutust, mida saate iga kell kodus proovida </p>
+        
     </header>
     <div class="sisu">
-        <div class="kast" id="Käteharjutused">
+        <div class="sissejuhatus">
+        <hr class="joon">
+        <p>Füüsilise aktiivsuse ning vormi parandamiseks ei pea ilmtingimata omama jõusaali liikmekaarti.</p>
+        <p>Vastupidi, ka kodustes tingimustes saab kõiki lihasgruppe väga hästi treenida!</p>
+        <p>Allpool leiate iga lihasgrupi kohta 3 effektiivset harjutust, mida saate iga kell ka kodus proovida! </p>
+        <hr class="joon">
+        </div>
+            <input type="radio" id="rinnanupp" name="nupp" checked>
+            <label for="rinnanupp">RIND/SELG</label>
+            <input type="radio" id="kätenupp" name="nupp">
+            <label for="kätenupp">KÄED</label>
+            <input type="radio" id="jalgadenupp" name="nupp">
+            <label for="jalgadenupp">ALAKEHA</label>
+        <div class="kast" id="KäteHarjutused">
             <h1>Käteharjutused</h1>
             <hr class="joon">
             <h2>Teemant kätekõverdused (Diamond push-ups)</h2>
-            <img src="https://images.squarespace-cdn.com/content/v1/5ffcea9416aee143500ea103/1638115768914-NXJ6XWIQ9PVDSKAGV02Q/Diamond%2BPush%2BUps.png" alt="Kätekõverdused">
+            <img id="kätekõverdused" src="https://images.squarespace-cdn.com/content/v1/5ffcea9416aee143500ea103/1638115768914-NXJ6XWIQ9PVDSKAGV02Q/Diamond%2BPush%2BUps.png" alt="Kätekõverdused">
             <p>Teemant kätekõverduste treenivad põhiliselt triitsepsit. Oluline on jälgida käte asendit - 
                 käed on kitsalt sissepoole suunatud ning nende keskele tekib teemanti kuju.
             </p>
@@ -40,7 +51,7 @@
                 pannes jalad mõne kõrgema objekti peale.
             </p>
         </div>
-        <div class="kast" id="selg">
+        <div class="kast" id="SeljaRinnaHarjutused">
             <h1>Selja ja rinna harjutused</h1>
             <hr class="joon">
             <h2>Kätekõverdused (Push-ups)</h2>
@@ -62,7 +73,7 @@
                 tehnika ning madal raskus olulised, et vältida vigastusi.
             </p>
         </div>
-        <div class="kast" id="alakeha">
+        <div class="kast" id="AlakehaHarjutused">
             <h1>Alakeha harjutused</h1>
             <hr class="joon">
             <h2>Kükk (squats)</h2>

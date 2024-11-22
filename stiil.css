@@ -10,6 +10,7 @@ body {
 hr.joon {
     border: none;
     border-top: 3px solid #a3d5ff;
+    box-shadow: 2px 2px 5px #a3d5ff;
 }
 
 header {
@@ -17,17 +18,30 @@ header {
     color: #FFFFFF;
     padding: 10px 20px;
     text-align: center;
+    box-shadow: 3px 3px 10px #a3d5ff;
+
 }
+
+header h1 {
+    font-size: 35px;
+    font-weight: 800;
+    padding-top: 15px;
+    padding-bottom: 30px;
+}
+
 header nav {
     margin-top: 10px;
 }
 header nav a {
+    text-decoration: none;
     color: #FFFFFF;
     margin: 15px;
     font-weight: bold;
 }
-header nav a:hover {
-    text-decoration: underline;
+
+.sissejuhatus p {
+    text-align: center;
+
 }
 .sisu {
     padding: 20px;
@@ -35,13 +49,17 @@ header nav a:hover {
     margin: auto;
     border-radius: 10px;
 }
+
 .kast {
+    position: absolute;
     background: #2a94e7;
     color: #FFFFFF;
     padding: 15px;
     border-radius: 10px;
     margin-top: 40px;
     box-shadow: 10px 10px 10px #a3d5ff;
+    left: 17%;
+    right: 17%;
 }
 
 .kast h1 {
@@ -50,16 +68,72 @@ header nav a:hover {
     font-size: 35px
 }
 
-#selg {
-    margin-top: 80px;
-}
-
-#alakeha {
-    margin-top: 80px;
-}
 
 .kast img {
     max-width: 100%;
     border-radius: 8px;
+    max-height: 250px;
 }
 
+input[type="radio"] {
+    opacity: 0;
+    display: absolute;
+    margin-top: 30px;
+
+
+}
+
+#rinnanupp {
+    margin-left: 23%;
+}
+
+
+
+label {
+    cursor: pointer;
+    padding: 10px 20px;
+    text-align: center;
+    border-style: solid;
+    border-color: #a3d5ff;
+    border-radius: 15px;
+    box-shadow: 2px 2px 5px #a3d5ff;
+}
+
+
+
+#rinnanupp:checked + label {
+    background-color: #2a94e7;
+    border-radius: 15px;
+    color: white;
+}
+#rinnanupp:checked ~ #KäteHarjutused {
+    opacity: 0;
+}
+#rinnanupp:checked ~ #AlakehaHarjutused {
+    opacity: 0;
+}
+
+#kätenupp:checked + label {
+    background-color: #2a94e7;
+    border-radius: 15px;
+    color: white;
+}
+#kätenupp:checked ~ #SeljaRinnaHarjutused {
+    opacity: 0;
+}
+#kätenupp:checked ~ #AlakehaHarjutused {
+    opacity: 0;
+}
+
+
+#jalgadenupp:checked + label {
+    background-color: #2a94e7;
+    border-radius: 15px;
+    color: white;
+}
+#jalgadenupp:checked ~ #KäteHarjutused {
+    opacity: 0;
+}
+#jalgadenupp:checked ~ #SeljaRinnaHarjutused {
+    opacity: 0;
+}
