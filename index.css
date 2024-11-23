@@ -1,19 +1,33 @@
 .training-options-box {
-    width: 95%;
+    width: 90%;
     margin: auto;
+
     display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+
+    gap: 5%;
 }
 
 .training-option-box {
-    border: cyan 3px solid;
+    border: #2a94e7 3px solid;
     border-radius: 10px;
-    width: 45%;
-    margin: auto;
-    height: 100%;
-    background-color:rgb(101, 98, 98);
+    background-color: white;
+    flex: 1;
+
+    transition: background-color 0.4s;
+}
+
+.training-option-box:hover {
+    background-color: rgb(233, 233, 233);
 }
 
 .training-option-contents {
-    width: 95%;
+    width: 90%;
     margin: auto;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
 }

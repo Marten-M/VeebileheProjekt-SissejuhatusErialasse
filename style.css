@@ -1,6 +1,6 @@
 
 body {
-    background-color: darkgrey;
+    background-color: #2a94e7;
     height: 100%;
 }
 
@@ -15,7 +15,7 @@ h1, h2 {
     left: 12.5%;
     width: 75%;
     min-height: 100vh;
-    background-color: grey;
+    background-color: #a3d5ff;
 }
 
 .main-column {
