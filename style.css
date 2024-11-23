@@ -29,6 +29,11 @@ header nav a {
     font-weight: bold;
 }
 
+.content-box {
+    background-color: #2a94e7;
+    color: white;
+}
+
 .main-column {
     width: 97%;
     margin: auto;

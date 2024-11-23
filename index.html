@@ -10,16 +10,40 @@
 </head>
 <body>
     <header>
-        <nav>
-            <a id="koduharjutused" href="koduharjutused.html">Koduharjutused</a>
-            <a id="jõusaaliharjutused" href="jousaal.html">Jõusaali harjutused</a>
-        </nav>
         <h1>Nipid füüsilise vormi parandamiseks</h1>
     </header>
     <div class="main-column">
         <div class="main-column-contents">
+            <h4>
+                Oled algaja ning ei tea kust alustada? Vasta allolevale küsimustikule ning paneme Sulle kokku personaalse treeningkava, mis võtab arvesse sinu praegust vormi ning eesmärke!
+            </h4>
+            <div class="questions-box-wrapper content-box edged-box">
+                <div id="questions-box">
+                    <table>
+                        <tr>
+                            <td>Skaalal 1 kuni 10, kui heas füüsilises vormis hindad end praegu olevat?</td>
+                            <td><select name="fitness-level" id="fitness-level"></select></td>
+                        </tr>
+                        <tr>
+                            <td>Mis on Sinu trenni tegemise eesmärk?</td>
+                            <td>
+                                <select name="training-goal" id="training-goal">
+                                    <option value="1">Kaalu langetamine</option>
+                                    <option value="2">Vastupidavuse parandamine</option>
+                                    <option value="3">Tugevamaks saamine</option>
+                                    <option value="4">Füüsilise vormi hoidmine</option>
+                                </select>
+                            </td>
+                        </tr>
+                    </table>
+                    <button type="submit" id="personal-workout-button" onclick="generate_personal_workout()">Genereeri treeningkava</button>
+                </div>
+            </div>
+            <h4>
+                Tead juba, mida otsid? Sel juhul vali alt enda eelistatud koht harjutuste tegemiseks.
+            </h4>
             <div class="training-options-box">
-                <a href="jousaal.html" class="training-option-box">
+                <a href="jousaal.html" class="training-option-box content-box edged-box">
                     <div class="training-option-contents">
                         <h2>Jõusaalis treenimine</h2>
                         <p>
@@ -27,7 +51,7 @@
                         </p>
                     </div>
                 </a>
-                <a href="koduharjutused.html" class="training-option-box">
+                <a href="koduharjutused.html" class="training-option-box content-box edged-box">
                     <div class="training-option-contents">
                         <h2>Kodus treenimine</h2>
                         <p>
@@ -36,10 +60,8 @@
                     </div>
                 </a>
             </div>
-            <p>
-                Oled algaja ning ei tea kust alustada? Vasta allolevale küsimustikule ning paneme Sulle kokku personaalse treeningkava, mis võtab arvesse sinu praegust vormi ning eesmärke!
-            </p>
         </div>
     </div>
+    <script src="index.js"></script>
 </body>
 </html>
