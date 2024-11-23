@@ -1,7 +1,7 @@
 .training-options-box {
     width: 100%;
     margin: auto;
-
+    padding-top: 5%;
     display: flex;
     justify-content: space-between;
     box-sizing: border-box;
@@ -10,21 +10,29 @@
 }
 
 .training-option-box {
-    border: #2a94e7 3px solid;
     border-radius: 10px;
-    background-color: white;
+    background-color: #2a94e7;
     flex: 1;
+    color: white;
 
     transition: background-color 0.4s;
+
+    border: 4px solid #a3d5ff;
 }
 
 .training-option-box:hover {
-    background-color: rgb(233, 233, 233);
+    background-color: #0a74c7;
 }
 
 .training-option-contents {
     width: 90%;
     margin: auto;
+    text-align: center;
+}
+
+.training-option-contents p {
+    font-size: 20px;
+    text-align: justify;
 }
 
 a {
