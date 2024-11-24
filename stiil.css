@@ -12,6 +12,7 @@ hr.joon {
     text-align: center;
 
 }
+
 .sisu {
     padding-top: 35px;
     max-width: 800px;
@@ -32,7 +33,6 @@ hr.joon {
     right: 17%;
 }
 
-
 .kast h1 {
     font-weight: 800;
     font-size: 35px
@@ -41,7 +41,6 @@ hr.joon {
 .kast h2 {
     font-weight: 700;
 }
-
 
 .kast img {
     max-width: 100%;
@@ -54,8 +53,6 @@ input[type="radio"] {
     position: absolute;
     display: flex;
     margin-top: 30px;
-
-
 }
 
 body {
@@ -76,19 +73,19 @@ label {
     align-items: center;
     display: inline-block;
     vertical-align: middle;
-    align-content: middle;
+    align-content: center;
 }
-
-
 
 #rinnanupp:checked + label {
     background-color: #2a94e7;
     border-radius: 15px;
     color: white;
 }
+
 #rinnanupp:checked ~ #KäteHarjutused {
     opacity: 0;
 }
+
 #rinnanupp:checked ~ #AlakehaHarjutused {
     opacity: 0;
 }
@@ -98,22 +95,25 @@ label {
     border-radius: 15px;
     color: white;
 }
+
 #kätenupp:checked ~ #SeljaRinnaHarjutused {
     opacity: 0;
 }
+
 #kätenupp:checked ~ #AlakehaHarjutused {
     opacity: 0;
 }
-
 
 #jalgadenupp:checked + label {
     background-color: #2a94e7;
     border-radius: 15px;
     color: white;
 }
+
 #jalgadenupp:checked ~ #KäteHarjutused {
     opacity: 0;
 }
+
 #jalgadenupp:checked ~ #SeljaRinnaHarjutused {
     opacity: 0;
 }
