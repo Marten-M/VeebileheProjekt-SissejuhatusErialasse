@@ -74,6 +74,8 @@ a {
 .training-option-box {
     border-radius: 10px;
     flex: 1;
+    background-color: #2a94e7;
+    color: white;
     
     transition: background-color 0.4s;
 }

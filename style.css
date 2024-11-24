@@ -50,6 +50,10 @@ header nav a {
     margin: 0;
 }
 
+.content-box {
+    background-color: #2a94e7;
+    color: white;
+}
 
 .main-column {
     width: 97%;
