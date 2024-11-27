@@ -24,9 +24,14 @@
     </header>
     <div class="main-column">
         <div class="main-column-contents">
-            <h4>
-                Oled algaja ning ei tea kust alustada? Vasta allolevale küsimustikule ning paneme Sulle kokku personaalse treeningkava, mis võtab arvesse sinu praegust vormi ning eesmärke!
-            </h4>
+            <div id="alguses">
+            <hr class="joon">
+            <h1>Oled algaja ning ei tea kust alustada?</h1>
+            <hr class="joon">
+            <p>
+                 Vasta allolevale küsimustikule ning paneme Sulle kokku personaalse treeningkava, mis võtab arvesse sinu praegust vormi ning eesmärke!
+            </p>
+            </div>
             <div class="questions-box-wrapper content-box edged-box">
                 <div id="questions-box">
                     <table>
@@ -35,7 +40,7 @@
                             <td><select name="fitness-level" id="fitness-level"></select></td>
                         </tr>
                         <tr>
-                            <td>Mis on Sinu trenni tegemise eesmärk?</td>
+                            <td>Mis on Sinu trennitegemise eesmärk?</td>
                             <td>
                                 <select name="training-goal" id="training-goal">
                                     <option value="1">Kaalu langetamine</option>
@@ -46,16 +51,22 @@
                             </td>
                         </tr>
                     </table>
-                    <button type="submit" id="personal-workout-button" onclick="generate_personal_workout()">Genereeri treeningkava</button>
+                    <button type="submit" id="personal-workout-button" onclick="generate_personal_workout()">GENEREERI TREENINGKAVA</button>
                 </div>
             </div>
-            <h4>
-                Tead juba, mida otsid? Sel juhul vali alt enda eelistatud koht harjutuste tegemiseks.
-            </h4>
+            <div id="keskel"> 
+            <hr class="joon">
+            <h1>Tead juba, mida otsid?</h1>
+            <hr class="joon">
+            <p>
+              Sel juhul vali alt enda eelistatud koht harjutuste tegemiseks.
+            </p>
+            </div>
             <div class="training-options-box">
                 <a href="jousaal.html" class="training-option-box content-box edged-box">
                     <div class="training-option-contents">
                         <h2>Jõusaalis treenimine</h2>
+                        <hr class="joon">
                         <p>
                             Jõusaal on ideaalne koht füüsilise vormi parandamiseks, kuna sisaldab erinevaid treeningmasinaid ja abivahendeid, millega treenida just neid lihaseid ja lihasgruppe, mida treenida soovid. Kliki siia, et rohkem teada saada!
                         </p>
@@ -64,6 +75,7 @@
                 <a href="koduharjutused.html" class="training-option-box content-box edged-box">
                     <div class="training-option-contents">
                         <h2>Kodus treenimine</h2>
+                        <hr class="joon">
                         <p>
                             Füüsilise vormi hoidmiseks ei ole otseselt jõusaali vaja minna. On väga palju harjutusi igale lihasgrupile, mida saab teha ka kodus ilma abivahendeid kasutamata. Kui soovid end vormis hoida kodust lahkumata, siis uuri siit rohkem!
                         </p>
