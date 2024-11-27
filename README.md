@@ -8,7 +8,11 @@ Veebilehel saab infot ja nõuandeid erinevate jõusaalis tehtavate harjutuste ni
 - Marten Tiisler
 
 ## Tiimisisene tööjaotus
-*TODO* Kirjutada mida igaüks tegi
-### Marten Mehide
-### Ken Nübek
-### Marten Tiisler
+###Marten Mehide
+Pealeht, Github workflow, javascript, veebilehe üles panek.
+
+###Marten Tiisler
+Kodus tehtavate harjutuste leht. Pea- ja alamlehtede üldine disain ja aesteetika. Rühmasisene infovahetus, koosolekute korraldamine.
+
+###Ken Nübek
+Jõusaalis tehtavate harjutuste leht.
