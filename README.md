@@ -8,7 +8,7 @@ Veebilehel saab infot ja nõuandeid erinevate jõusaalis tehtavate harjutuste ni
 - Marten Tiisler
 
 ## Tiimisisene tööjaotus
-**Marten Mehide**\n
+**Marten Mehide**  \
 Pealeht, Github workflow, javascript, veebilehe üles panek.
 
 **Marten Tiisler**
