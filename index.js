@@ -73,7 +73,7 @@ function generate_personal_workout() {
         `${sets}x${repsPerUnit * 3} kummardudes tõmmet`
     ];
 
-    const introductoryMessage = "Sinu vormi ja eesmärke arvesse võttes soovitame sul järgid järgmist treeningkava:"
+    const introductoryMessage = "Sinu vormi ja eesmärke arvesse võttes soovitame sul järgida järgmist treeningkava:"
     const finalMessage = `Tee trenni ${trainingsPerWeek} korda nädalas. Harjutuste, mis vajavad raskusi, raskusastme klass võiks olla Sinu jaoks ${weightsClass}. Mittetuttavate harjutuste kohta saad täpsemalt lugeda vajutades "Kodus treenimine" peale.`
 
     // Asenda tekst kastis
