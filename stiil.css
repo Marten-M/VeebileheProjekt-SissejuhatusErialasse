@@ -2,12 +2,6 @@
     text-align: center;
 }
 
-hr.joon {
-    border: none;
-    border-top: 3px solid #a3d5ff;
-    box-shadow: 2px 2px 5px #a3d5ff;
-}
-
 .sissejuhatus p {
     text-align: center;
 
@@ -74,6 +68,11 @@ label {
     display: inline-block;
     vertical-align: middle;
     align-content: center;
+    transition: transform 0.4s;
+}
+
+label:hover {
+    transform: scale(1.1);
 }
 
 #rinnanupp:checked + label {
