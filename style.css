@@ -1,23 +1,96 @@
 
 body {
-    background-color: darkgrey;
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
 }
 
-h1, h2 {
+header {
+    background-color: #2a94e7;
+    color: #FFFFFF;
+    padding: 10px 20px;
     text-align: center;
+    box-shadow: 3px 3px 10px #a3d5ff;
 }
 
-.main-col-wrapper {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 12.5%;
-    width: 75%;
-    min-height: 100vh;
-    background-color: grey;
+header h1 {
+    font-size: 35px;
+    font-weight: 900;
+    padding-top: 15px;
+    padding-bottom: 30px;
+}
+
+
+header nav {
+    margin-top: 10px;
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+header nav .lingid {
+    display: flex;
+    gap: 3vw;
+    flex-grow: 1;
+    justify-content: center;
+    padding-left: 10vw;
+    font-size: 17px;
+}
+
+header nav .logod {
+    display: flex;
+    gap: 2vw;
+    justify-content: flex-end;
+}
+
+header nav a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: bold;
+    margin: 0;
+}
+
+.content-box {
+    background-color: #2a94e7;
+    color: white;
 }
 
 .main-column {
+    padding-top: 30px;
+    padding-bottom: 40px;
     width: 97%;
     margin: auto;
+}
+
+.main-column-contents {
+    width: 90%;
+    margin: auto;
+}
+
+hr.joon {
+    border: none;
+    border-top: 3px solid #a3d5ff;
+    box-shadow: 2px 2px 5px #a3d5ff;
+}
+
+#keskel {
+    margin-top: 60px;
+    text-align: center;
+    margin-bottom: 45px;
+}
+
+#keskel p {
+    margin-top: 30px;
+}
+
+#alguses {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#alguses p {
+    margin-top: 30px;
 }

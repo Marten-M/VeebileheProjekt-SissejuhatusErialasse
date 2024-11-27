@@ -1,38 +1,89 @@
 <!DOCTYPE html>
-<html>
+<html lang="et">
 <head>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <meta charset="UTF-8">
 
     <title>Jõusaali nipid</title>
 </head>
 <body>
-    <div class="main-col-wrapper">
-        <div class="main-column">
-            <h1>Nipid füüsilise vormi parandamiseks</h1>
+    <header>
+        <nav>
+            <div class="lingid">
+            </div>
+            <div class="logod">
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-twitter"></a>
+                <a href="#" class="fa fa-instagram"></a>
+                <a href="#" class="fa fa-youtube"></a>
+            </div>
+        </nav>
+        <h1>Nipid füüsilise vormi parandamiseks</h1>
+    </header>
+    <div class="main-column">
+        <div class="main-column-contents">
+            <div id="alguses">
+            <hr class="joon">
+            <h1>Oled algaja ning ei tea kust alustada?</h1>
+            <hr class="joon">
             <p>
-                TODO: lehte tutvustav tekst
+                 Vasta allolevale küsimustikule ning paneme Sulle kokku personaalse treeningkava, mis võtab arvesse sinu praegust vormi ning eesmärke!
             </p>
+            </div>
+            <div class="questions-box-wrapper content-box edged-box">
+                <div id="questions-box">
+                    <table>
+                        <tr>
+                            <td>Skaalal 1 kuni 10, kui heas füüsilises vormis hindad end praegu olevat?</td>
+                            <td><select name="fitness-level" id="fitness-level"></select></td>
+                        </tr>
+                        <tr>
+                            <td>Mis on Sinu trennitegemise eesmärk?</td>
+                            <td>
+                                <select name="training-goal" id="training-goal">
+                                    <option value="1">Kaalu langetamine</option>
+                                    <option value="2">Vastupidavuse parandamine</option>
+                                    <option value="3">Tugevamaks saamine</option>
+                                    <option value="4">Füüsilise vormi hoidmine</option>
+                                </select>
+                            </td>
+                        </tr>
+                    </table>
+                    <button type="submit" id="personal-workout-button" onclick="generate_personal_workout()">GENEREERI TREENINGKAVA</button>
+                </div>
+            </div>
+            <div id="keskel"> 
+            <hr class="joon">
+            <h1>Tead juba, mida otsid?</h1>
+            <hr class="joon">
+            <p>
+              Sel juhul vali alt enda eelistatud koht harjutuste tegemiseks.
+            </p>
+            </div>
             <div class="training-options-box">
-                <div class="training-option-box">
+                <a href="jousaal.html" class="training-option-box content-box edged-box">
+                    <div class="training-option-contents">
+                        <h2>Jõusaalis treenimine</h2>
+                        <hr class="joon">
+                        <p>
+                            Jõusaal on ideaalne koht füüsilise vormi parandamiseks, kuna sisaldab erinevaid treeningmasinaid ja abivahendeid, millega treenida just neid lihaseid ja lihasgruppe, mida treenida soovid. Kliki siia, et rohkem teada saada!
+                        </p>
+                    </div>
+                </a>
+                <a href="koduharjutused.html" class="training-option-box content-box edged-box">
                     <div class="training-option-contents">
                         <h2>Kodus treenimine</h2>
+                        <hr class="joon">
                         <p>
-                            Kodus saab väga edukalt treenida... TODO Lisada juttu
+                            Füüsilise vormi hoidmiseks ei ole otseselt jõusaali vaja minna. On väga palju harjutusi igale lihasgrupile, mida saab teha ka kodus ilma abivahendeid kasutamata. Kui soovid end vormis hoida kodust lahkumata, siis uuri siit rohkem!
                         </p>
                     </div>
-                </div>
-                <div class="training-option-box">
-                    <div class="training-option-contents">
-                        <h2><a href="C:\Users\nubek\OneDrive - Tartu Ülikool\Töölaud\Kool\SE_projekt\VeebileheProjekt-SissejuhatusErialasse\jousaal.html">Jõusaalis treenimine</a></h2>
-                        <p>
-                            Jõusaalis on mitmeid eri treeningkavasi, mida proovida saad... TODO lisada juttu
-                        </p>
-                    </div>
-                </div>
+                </a>
             </div>
         </div>
     </div>
+    <script src="index.js"></script>
 </body>
 </html>
