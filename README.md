@@ -11,8 +11,8 @@ Veebilehel saab infot ja nõuandeid erinevate jõusaalis tehtavate harjutuste ni
 **Marten Mehide**  \
 Pealeht, Github workflow, javascript, veebilehe üles panek.
 
-**Marten Tiisler**
+**Marten Tiisler**  \
 Kodus tehtavate harjutuste leht. Pea- ja alamlehtede üldine disain ja aesteetika. Rühmasisene infovahetus, koosolekute korraldamine.
 
-**Ken Nübek**
+**Ken Nübek**  \
 Jõusaalis tehtavate harjutuste leht.
