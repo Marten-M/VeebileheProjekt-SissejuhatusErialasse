@@ -1,13 +1,121 @@
-.pealkiri {
-    text-align: center;
-    font-size: 32px;
-    
+body, html {
+    margin: 0;
+    padding: 0;
 }
 
-.lõik {
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 18px;
-    padding-left: 20px;
-    padding-right: 20px;
+#pealkiri {
     text-align: center;
+}
+
+hr.joon {
+    border: none;
+    border-top: 3px solid #a3d5ff;
+    box-shadow: 2px 2px 5px #a3d5ff;
+}
+
+.sissejuhatus p {
+    text-align: center;
+}
+
+.sisu {
+    padding-top: 35px;
+    max-width: 800px;
+    margin: auto;
+    border-radius: 10px;
+    padding-bottom: 1400px;
+}
+
+.kast {
+    position: absolute;
+    background: #2a94e7;
+    color: #FFFFFF;
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 40px;
+    box-shadow: 10px 10px 10px #a3d5ff;
+    left: 17%;
+    right: 17%;
+}
+
+.kast h1 {
+    font-weight: 800;
+    font-size: 35px;
+}
+
+.kast h2 {
+    font-weight: 700;
+}
+
+.kast img {
+    max-width: 100%;
+    border-radius: 8px;
+    max-height: 250px;
+}
+
+input[type="radio"] {
+    opacity: 0;
+    position: absolute;
+    display: flex;
+    margin-top: 30px;
+}
+
+body {
+    text-align: center;
+}
+
+label {
+    cursor: pointer;
+    padding: 10px 20px;
+    text-align: center;
+    border-style: solid;
+    border-color: #a3d5ff;
+    border-radius: 15px;
+    box-shadow: 2px 2px 5px #a3d5ff;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: inline-block;
+    vertical-align: middle;
+    align-content: center;
+    transition: background-color 0.3s, color 0.3s, transform 0.3s;
+}
+
+label:hover {
+    background-color: #2a94e7;
+    color: white;
+    transform: scale(1.1);
+}
+
+#rinnanupp:checked + label,
+#selgnupp:checked + label,
+#kätenupp:checked + label,
+#jaladnupp:checked + label {
+    background-color: #2a94e7;
+    border-radius: 15px;
+    color: white;
+}
+
+#rinnanupp:checked ~ #SelgHarjutused,
+#rinnanupp:checked ~ #KäteHarjutused,
+#rinnanupp:checked ~ #JaladHarjutused {
+    display: none;
+}
+
+#selgnupp:checked ~ #RindHarjutused,
+#selgnupp:checked ~ #KäteHarjutused,
+#selgnupp:checked ~ #JaladHarjutused {
+    display: none;
+}
+
+#kätenupp:checked ~ #RindHarjutused,
+#kätenupp:checked ~ #SelgHarjutused,
+#kätenupp:checked ~ #JaladHarjutused {
+    display: none;
+}
+
+#jaladnupp:checked ~ #RindHarjutused,
+#jaladnupp:checked ~ #SelgHarjutused,
+#jaladnupp:checked ~ #KäteHarjutused {
+    display: none;
 }
