@@ -1,0 +1,118 @@
+#pealkiri {
+    text-align: center;
+}
+
+.sissejuhatus p {
+    text-align: center;
+
+}
+
+.sisu {
+    padding-top: 35px;
+    max-width: 800px;
+    margin: auto;
+    border-radius: 10px;
+    padding-bottom: 1400px;
+}
+
+.kast {
+    position: absolute;
+    background: #2a94e7;
+    color: #FFFFFF;
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 40px;
+    box-shadow: 10px 10px 10px #a3d5ff;
+    left: 17%;
+    right: 17%;
+}
+
+.kast h1 {
+    font-weight: 800;
+    font-size: 35px
+}
+
+.kast h2 {
+    font-weight: 700;
+}
+
+.kast img {
+    max-width: 100%;
+    border-radius: 8px;
+    max-height: 250px;
+}
+
+input[type="radio"] {
+    opacity: 0;
+    position: absolute;
+    display: flex;
+    margin-top: 30px;
+}
+
+body {
+    text-align: center;
+}
+
+label {
+    cursor: pointer;
+    padding: 10px 20px;
+    text-align: center;
+    border-style: solid;
+    border-color: #a3d5ff;
+    border-radius: 15px;
+    box-shadow: 2px 2px 5px #a3d5ff;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: inline-block;
+    vertical-align: middle;
+    align-content: center;
+    transition: transform 0.4s;
+}
+
+label:hover {
+    transform: scale(1.1);
+}
+
+#rinnanupp:checked + label {
+    background-color: #2a94e7;
+    border-radius: 15px;
+    color: white;
+}
+
+#rinnanupp:checked ~ #KäteHarjutused {
+    opacity: 0;
+}
+
+#rinnanupp:checked ~ #AlakehaHarjutused {
+    opacity: 0;
+}
+
+#kätenupp:checked + label {
+    background-color: #2a94e7;
+    border-radius: 15px;
+    color: white;
+}
+
+#kätenupp:checked ~ #SeljaRinnaHarjutused {
+    opacity: 0;
+}
+
+#kätenupp:checked ~ #AlakehaHarjutused {
+    opacity: 0;
+}
+
+#jalgadenupp:checked + label {
+    background-color: #2a94e7;
+    border-radius: 15px;
+    color: white;
+}
+
+#jalgadenupp:checked ~ #KäteHarjutused {
+    opacity: 0;
+}
+
+#jalgadenupp:checked ~ #SeljaRinnaHarjutused {
+    opacity: 0;
+}
